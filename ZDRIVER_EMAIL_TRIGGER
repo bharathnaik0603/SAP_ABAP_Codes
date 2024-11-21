@@ -107,7 +107,7 @@ START-OF-SELECTION.
 ***SET SENDER
       lo_bcs->set_sender( i_sender = lo_sender ).
 *RECIPIENT DETAILS
-      lo_recipient = cl_cam_address_bcs=>create_internet_address( i_address_string = 'maheshreddybgp@gmail.com'  ).
+      lo_recipient = cl_cam_address_bcs=>create_internet_address( i_address_string = 'abc.com'  ).
       lo_bcs->add_recipient( EXPORTING i_recipient  = lo_recipient ).
 *E-Mail Body
       ls_body-line = 'Hi,'.
